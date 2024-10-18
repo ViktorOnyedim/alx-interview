@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Minimum number of operations algorithm challenge"""
+
 
 
 def minOperations(n):
@@ -22,4 +24,3 @@ def minOperations(n):
             operations += 1
 
     return operations
-
