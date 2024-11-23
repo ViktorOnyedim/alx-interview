@@ -56,6 +56,7 @@ def solve_nqueens(N, row=0, board=None, solutions=None):
 
     return solutions
 
+
 def main():
     """Main function to handle input and error cases"""
     if len(sys.argv) != 2:
