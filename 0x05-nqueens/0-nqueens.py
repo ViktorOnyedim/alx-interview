@@ -29,6 +29,7 @@ def is_safe(board, row, col, N):
             return False
     return True
 
+
 def solve_nqueens(N, row=0, board=None, solutions=None):
     """
     Solve N Queens problem
