@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+"""Lockboxes Module"""
+
 
 def canUnlockAll(boxes):
+    """Determines if all the boxes can be opened"""
     n = len(boxes)
 
     # Start with the first box that is unlocked
@@ -15,4 +18,3 @@ def canUnlockAll(boxes):
             keys.update(boxes[new_key])
 
     return len(unlocked) == n
-
